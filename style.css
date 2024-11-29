@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   scrollbar-width: none;
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  letter-spacing: 2px;
 }
 
 body {
@@ -55,36 +57,38 @@ body {
 
 .auth-buttons a {
   text-decoration: none;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
+  padding: 0.6rem 2.3rem;
+  font-size: 20px;
+  border-radius: 20px;
+
   font-weight: bold;
   transition: background 0.3s, color 0.3s;
 }
 
 .auth-buttons .sign-in {
-  background: #00bcd4;
-  color: #fff;
+  background: #00a5bbb9;
+  color: #ffffff;
 }
 
 .auth-buttons .sign-in:hover {
-  background: #008c9e;
+  background: #ff771c;
 }
 
 .auth-buttons .login {
-  background: #fff;
-  color: #333;
+  background: #00d45f;
+  color: #ffffff;
   border: 2px solid #00bcd4;
 }
 
 .auth-buttons .login:hover {
-  background: #00bcd4;
+  background: #ff771c;
   color: #fff;
 }
 .menu-toggle{
   font-size: 25px;
 }
 .top {
-  background: linear-gradient(to bottom, rgba(20, 115, 197, 0.288), rgba(66, 164, 245, 0.329)),
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.644), rgba(0, 18, 32, 0.651)),
     url('smart\ watch.jpg') no-repeat center/cover;
 }
 
@@ -97,6 +101,7 @@ header {
   animation: fadeIn 3s ease-in-out;
   animation-delay: 0s;
   animation-fill-mode: forwards;
+  letter-spacing: 2px;
 }
 
 header h1 {
@@ -107,7 +112,7 @@ header h1 {
 }
 
 header p {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 .hero-section {
@@ -133,7 +138,7 @@ header p {
 
 .hero-content {
   max-width: 500px;
-  padding: 20px;
+  padding: 30px;
   animation: fadeIn 1.5s ease-in-out;
 }
 
@@ -144,7 +149,7 @@ header p {
 }
 
 .hero-content p {
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   margin-bottom: 20px;
   line-height: 1.8;
 }
@@ -208,9 +213,9 @@ header p {
 }
 
 .feature p {
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 1.5;
-  color: #555;
+  color: #000000;
 }
 
 footer {
