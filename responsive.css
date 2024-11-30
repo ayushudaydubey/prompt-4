@@ -12,6 +12,7 @@
  }
  .hero-section{
   padding: 25px 10px;
+
  }
  .hero-content{
   padding: 0;
@@ -23,23 +24,23 @@
  }
   .navbar {
     flex-direction: row;
-    padding: 1.5rem;
+    padding: 0.9rem;
     align-items: center;
   }
 
   .navbar .logo {
-    font-size:2rem;
+    font-size:1.5rem;
  
   }
 
   .navbar ul {
     flex-direction: row;
     align-items: center;
-    gap: 1rem;
+    gap: 0.5rem;
   }
 
   .navbar ul li {
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   .auth-buttons {
@@ -50,21 +51,21 @@
   }
 
   .auth-buttons a {
-    padding: 0.4rem 0.8rem;
+    padding: 0.2rem 0.4rem;
     font-size: 1rem;
   }
   .feature {
-    width: 250px;
+    width: 200px;
   }
 .feature p{
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
   .menu-toggle {
     display: block;
     cursor: pointer;
   }
  footer p{
-  font-size: 1.7rem;
+  font-size: 1rem;
  }
   .navbar ul {
     display: none;
@@ -74,4 +75,3 @@
     display: flex;
   }
 }
-
