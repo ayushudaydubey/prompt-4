@@ -13,7 +13,7 @@ body{
 }
 /* Navbar Styling */
 .navbar {
-  background-color: #333;
+  background-color: #3f3f3f;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -75,36 +75,36 @@ body{
 
 /* Hero Section Styling */
 .top header {
-  text-align: center;
-  padding: 70px 20px;
-
+  text-align: left;
+ 
 }
 
 .top header h1 {
   font-size: 42px;
   color: #333;
   font-weight: bold;
-  margin-bottom: 15px;
-  text-align: right;
+
+  text-align: center;
 }
 
 .top header p {
   font-size: 20px;
-  color: #555;
+
+  color: #2b2b2b;
   margin-top: 10px;
-  text-align: right;
+  text-align: center;
 }
 
 .hero-section {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: start;
   padding: 80px 20px;
 
 }
 
 .hero-content {
-  max-width: 50%;
+  max-width: 40%;
 }
 
 .hero-section img{
